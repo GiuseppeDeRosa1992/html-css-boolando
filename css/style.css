@@ -1,6 +1,64 @@
 /****** CSS RESET ******/
-body {
+* {
     margin:0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.debug header,
+.debug .small-nav,
+.debug.big-nav{
+    border: 2px dashed black;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    height: 1.5rem;
+    width: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0 0.3rem;
+}
+
+.center {
+    align-items: center;
+}
+
+
+/****** CSS HEADER *******/
+header {
+    color: white;
+    background-color: #FF6900;
+    width: 100%;
+    position: fixed;
+}
+
+.small-nav {
+    width: 20%;
+    text-align: right;
+}
+
+.big-nav {
+    width: 60%;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+ul > li {
+    list-style-type: none;
 }
