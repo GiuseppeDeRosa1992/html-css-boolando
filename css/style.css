@@ -29,11 +29,14 @@ body {
 a {
     text-decoration: none;
     color: white;
-    padding: 0 0.3rem;
 }
 
 .center {
     align-items: center;
+}
+
+.jc-between {
+    justify-content: space-between;
 }
 
 
@@ -65,9 +68,13 @@ ul > li {
     list-style-type: none;
 }
 
+header a {
+    padding: 0 0.3rem;
+}
+
 /******* CSS MAIN *******/
 main {
-    padding: 5rem 0;
+    padding-top: 5rem;
 }
 
 main img {
@@ -78,4 +85,18 @@ main img {
 .row {
     gap: 10px;
     margin-bottom: 2rem;
+}
+
+/******** CSS FOOTER *******/
+footer {
+    background-color: #1A1A1A;
+    padding: 2rem;
+}
+
+h5 {
+    color: white;
+}
+
+.pa {
+    padding: 0 0.5rem;
 }
