@@ -62,6 +62,47 @@ a {
     color: red;
 }
 
+img:hover {
+    opacity: 0.05;
+}
+
+.card.one:hover {
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+.card.two:hover {
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+.card.three:hover {
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+.card.four:hover {
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+.card.five:hover {
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+.card.six:hover {
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+    height: 30rem;
+}
+
+
 /****** CSS HEADER *******/
 header {
     color: white;
