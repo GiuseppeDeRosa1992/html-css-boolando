@@ -16,17 +16,14 @@ body {
 
 .debug header,
 .debug .small-nav,
-.debug.big-nav{
+.debug.big-nav,
+.debug .row,
+.debug .card{
     border: 2px dashed black;
 }
 
 .flex {
     display: flex;
-}
-
-img {
-    height: 1.5rem;
-    width: 5rem;
 }
 
 a {
@@ -48,6 +45,11 @@ header {
     position: fixed;
 }
 
+header img {
+    height: 1.5rem;
+    width: 5rem;
+}
+
 .small-nav {
     width: 20%;
     text-align: right;
@@ -61,4 +63,19 @@ header {
 
 ul > li {
     list-style-type: none;
+}
+
+/******* CSS MAIN *******/
+main {
+    padding: 5rem 0;
+}
+
+main img {
+    width: 100%;
+    height: 30rem;
+}
+
+.row {
+    gap: 10px;
+    margin-bottom: 2rem;
 }
