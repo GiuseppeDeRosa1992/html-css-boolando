@@ -7,19 +7,14 @@
 
 body {
     color: black;
+    font-family: sans-serif;
 }
+
+/********* CSS UTILS *********/
 
 .container {
     width: 1000px;
     margin: 0 auto;
-}
-
-.debug header,
-.debug .small-nav,
-.debug.big-nav,
-.debug .row,
-.debug .card{
-    border: 2px dashed black;
 }
 
 .flex {
@@ -29,6 +24,10 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+.pa {
+    padding: 0 0.5rem;
 }
 
 .center {
@@ -67,11 +66,6 @@ header img {
 ul > li {
     list-style-type: none;
 }
-
-header a {
-    padding: 0 0.3rem;
-}
-
 /******* CSS MAIN *******/
 main {
     padding-top: 5rem;
@@ -87,6 +81,14 @@ main img {
     margin-bottom: 2rem;
 }
 
+section b {
+    color: red;
+}
+
+span.td-lt {
+    text-decoration: line-through;
+}
+
 /******** CSS FOOTER *******/
 footer {
     background-color: #1A1A1A;
@@ -95,8 +97,4 @@ footer {
 
 h5 {
     color: white;
-}
-
-.pa {
-    padding: 0 0.5rem;
 }
