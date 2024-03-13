@@ -38,6 +38,29 @@ a {
     justify-content: space-between;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.heart {
+    width: 30px;
+    height: 35px;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 35px;
+    vertical-align: middle;
+    bottom: 430px;
+    left: 303px;
+}
+
+.heart:hover {
+    color: red;
+}
 
 /****** CSS HEADER *******/
 header {
@@ -66,13 +89,13 @@ header img {
 ul > li {
     list-style-type: none;
 }
+
 /******* CSS MAIN *******/
 main {
     padding-top: 5rem;
 }
 
 main img {
-    width: 100%;
     height: 30rem;
 }
 
@@ -87,6 +110,38 @@ section b {
 
 span.td-lt {
     text-decoration: line-through;
+}
+
+.card .bg-red,
+.card .bg-green {
+    padding: 0.1rem;
+}
+
+.c-white {
+    color: white;
+    font-size: 0.7rem;
+}
+
+.card .bg-red {
+    background-color: red;
+}
+
+.card .bg-green {
+    background-color: green;
+}
+
+.bg-red.p-absolute {
+    bottom: 3rem;
+}
+
+.bg-green.p-absolute {
+    bottom: 3rem;
+    left: 2rem;
+}
+
+.bg-green.p-special {
+    position: absolute;
+    bottom: 3rem;
 }
 
 /******** CSS FOOTER *******/
